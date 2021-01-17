@@ -1,0 +1,50 @@
+/* mavoneditor */
+
+/* .markdown-body p{ */
+
+.zmd.markdown-body p {
+  font-family: 'Menlo';
+  font-size: 14px;
+}
+
+/* #zmd h4{ */
+
+.zmd.markdown-body h4 {
+  margin-block-end: 4px;
+}
+
+.zmd.markdown-body h4+pre {
+  margin-block-start: 1em;
+}
+
+.zmd.markdown-body ol, .zmd.markdown-body ul {
+  padding-left: 1.2em;
+}
+
+.zmd.markdown-body ol ol, .zmd.markdown-body ul ol {
+  list-style-type: upper-alpha;
+  /* counter-reset: li; */
+}
+
+/* .zmd.markdown-body ol ol::before, .zmd.markdown-body ul ol::before{
+  content:"★";
+  color:blue;
+  font-size:30px;
+} */
+
+/* .zmd.markdown-body ol ol li::before, .zmd.markdown-body ul ol li::before {
+  counter-increment: li;
+  content: '.' counter(li);
+  color: rgb(0, 99, 77);
+  font-style:italic;
+  display: inline-block;
+  width: 1.2em;
+  margin-left: -2.6em;
+  margin-right: 0.5em;
+  text-align: right;
+  direction: rtl
+} */
+
+/* li::before{
+  
+} */
